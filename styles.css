@@ -1,0 +1,17 @@
+body {
+    display: grid;
+    background-color: blue;
+    color: white;
+    font-family: Courier New;
+    place-content: center;
+    height: 90vh;
+}
+
+span {
+    background: rgb(105, 22, 199);
+    font-size: 3em;
+    border: 2px solid green;
+    padding: 1em;
+    border-radius: 2em;
+
+}
