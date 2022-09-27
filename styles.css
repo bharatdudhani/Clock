@@ -1,6 +1,6 @@
 body {
     display: grid;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     color: white;
     font-family: Courier New;
     place-content: center;
@@ -9,9 +9,25 @@ body {
 
 span {
     background: rgb(105, 22, 199);
-    font-size: 3em;
-    border: 2px solid green;
+    font-size: 2em;
+    border: 5px solid rgb(9, 252, 9);
     padding: 1em;
     border-radius: 2em;
+
+}
+
+@media (max-width: 300px) {
+    body {
+        background-color: white;
+    }
+
+    span {
+        background: rgb(105, 22, 199);
+        font-size: 1em;
+        border: 2px solid green;
+        padding: 1em;
+        border-radius: 2em;
+    
+    }
 
 }
