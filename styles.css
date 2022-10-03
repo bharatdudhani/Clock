@@ -13,6 +13,8 @@ span {
     border: 5px solid rgb(9, 252, 9);
     padding: 1em;
     border-radius: 2em;
+    text-transform: uppercase;
+
 
 }
 
@@ -27,6 +29,7 @@ span {
         border: 2px solid green;
         padding: 1em;
         border-radius: 2em;
+        text-transform: uppercase;
     
     }
 
